@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "7.5.0"
+  },
   "name": "server",
   "version": "1.0.0",
   "description": "",
@@ -13,7 +16,7 @@
     "test:watch": "npm run test -- -w",
     "test:unit": "mocha test/unit",
     "test:e2e": "mocha test/e2e",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
