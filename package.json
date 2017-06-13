@@ -16,17 +16,19 @@
     "test:watch": "npm run test -- -w",
     "test:unit": "mocha test/unit",
     "test:e2e": "mocha test/e2e",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "2.x",
-    "ejs": "2.x",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.17.2",
     "dotenv": "^4.0.0",
+    "ejs": "2.x",
     "express": "^4.15.3",
+    "jsonwebtoken-promisified": "^1.0.3",
     "mongodb": "^2.2.28",
     "mongoose": "^4.10.5",
     "morgan": "^1.8.2"
